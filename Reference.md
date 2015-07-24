@@ -17,10 +17,28 @@
 
 ### Misc Notes
 
-1. In order to make a SVG icon scalable, need "viewBox" attribute:
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">       
-    <circle cx="64" cy="64" r="64" style="fill: #00ccff;"></circle>                                       
-  </svg>
+* In order to make a SVG icon scalable, need "viewBox" attribute:
 
-2.
+```html 
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="64" style="fill: #00ccff;"></circle>
+</svg>
+```
+
+* Transform via <g>
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g transform="rotate(45 50 50)">
+      <line x1="10" y1="10" x2="85" y2="10" style="stroke: #006600;"/>
+      <rect x="10" y="20" height="50" width="75" style="stroke: #006600; fill: #006600"/>
+      <text x="10" y="90" style="stroke: #660000; fill: #660000">Text grouped with shapes</text>
+    </g>
+</svg>
+```
+
+* 
+
 
