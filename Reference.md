@@ -10,8 +10,7 @@
 
 * [SVG Icons](http://iconmonstr.com/)
 * [SVG Tutorial by Jacob Jenkov](http://tutorials.jenkov.com/svg)
-* 
-
+* [BBG: How Fast America Changes Mind](http://www.bloomberg.com/graphics/2015-pace-of-social-change/)
 
 ---
 
